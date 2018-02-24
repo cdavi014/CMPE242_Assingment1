@@ -36,7 +36,7 @@ static int __init led_init(void) {
 }
 
 static void __exit led_exit(void) {
-  SetGPIOFunction(LedGpioPin, 0);  		                // Configure the pin as input.
+  SetGPIOFunction(LedGpioPin, 0);                     // Configure the pin as input.
   iounmap(s_pGpioRegisters);                          // Unmap physical to virtual addresses.
 }
 
