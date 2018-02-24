@@ -1,8 +1,8 @@
-# Assignment I
-###LED GPIO Kernel Module *(CMPE242, Spring 2018)*
+# Assignment I #
+### LED GPIO Kernel Module *(CMPE242, Spring 2018)*
 -
 
-###Introduction
+### Introduction
 
 The main goal of this task is to write a kenel module that will light up an LED through the GPIO pins of the development board. For this project, I am using a **Raspberry Pi Ver. 3**. I have chosen to do a simple implementation where the LED lights up when the kernel module is insterted (insmod), and turns off when the module is removed (rmmod).
 
