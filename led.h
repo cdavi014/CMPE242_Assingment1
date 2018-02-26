@@ -4,7 +4,6 @@
  * Last Modified: Feb-22-2-18
  */
 #include <asm/io.h>
-#include <linux/timer.h>
 #include <linux/device.h>
 #include <linux/err.h>
 #include <linux/mm.h>
